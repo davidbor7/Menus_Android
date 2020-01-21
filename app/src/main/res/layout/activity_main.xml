@@ -10,7 +10,7 @@
         android:id="@+id/imageView"
         android:layout_width="310dp"
         android:layout_height="294dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/foto"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,9 +25,10 @@
         android:layout_marginTop="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.307"
         app:srcCompat="@drawable/notepad" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
